@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/namaapp"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:background="@drawable/background"
+        android:text="Aditya Pratama Quiz 1"
+        android:textAlignment="center"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+   <EditText
+       android:id="@+id/pelanggan"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Nama Pelanggan"
+       android:layout_below="@+id/namaapp"
+       android:layout_marginTop="30dp"
+/>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/pelanggan">
+
+        <RadioButton
+            android:id="@+id/gold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gold"/>
+
+        <RadioButton
+            android:id="@+id/silver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silver"/>
+
+        <RadioButton
+            android:id="@+id/biasa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biasa"/>
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/kodebarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kode Barang"
+        android:layout_below="@+id/radiogroup"
+        android:layout_marginTop="15dp"
+        android:inputType="textCapCharacters"
+        />
+
+    <EditText
+        android:id="@+id/jumlahbarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah Barang"
+        android:layout_below="@+id/kodebarang"
+        android:layout_marginTop="15dp"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/proses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jumlahbarang"
+        android:layout_marginTop="60dp"
+        android:text="Proses"
+        android:layout_marginStart="150dp"
+        />
+
+
+</RelativeLayout>
