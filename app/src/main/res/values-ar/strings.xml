@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">أديتيا براتاما كويز 1</string>
+    <string name="aditya_pratama_quiz_1">أديتيا براتاما كويز 1</string>
+    <string name="nama_pelanggan">اسم العميل</string>
+    <string name="silver">فضي</string>
+    <string name="biasa">عادي</string>
+    <string name="kode_barang">رمز السلعة</string>
+    <string name="jumlah_barang">الكمية</string>
+    <string name="proses">عملية</string>
+    <string name="kode_barang_tidak_valid">رمز السلعة غير صالح</string>
+    <string name="membership_gold">ذهب</string>
+    <string name="membership_silver">فضة</string>
+    <string name="membership_biasa">عادي</string>
+    <string name="nama_barang_SGS">سامسونج جالاكسي اس</string>
+    <string name="nama_barang_IPX">آيفون إكس</string>
+    <string name="nama_barang_MP3">ماك بوك برو M3</string>
+    <string name="nama_barang">اسم السلعة</string>
+    <string name="harga">السعر</string>
+    <string name="total_harga">السعر الإجمالي</string>
+    <string name="diskon_harga">سعر الخصم</string>
+    <string name="diskon_member">خصم العضو</string>
+    <string name="jumlah_bayar">المبلغ الإجمالي</string>
+    <string name="share_via">مشاركة عبر</string>
+</resources>

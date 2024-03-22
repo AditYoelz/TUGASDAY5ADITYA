@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Aditya Pratama Quiz1</string>
+    <string name="aditya_pratama_quiz_1">Aditya Pratama Quiz 1</string>
+    <string name="nama_pelanggan">Nombre del Cliente</string>
+    <string name="silver">Plata</string>
+    <string name="biasa">Normal</string>
+    <string name="kode_barang">Código de Producto</string>
+    <string name="jumlah_barang">Cantidad</string>
+    <string name="proses">Proceso</string>
+    <string name="kode_barang_tidak_valid">Código de producto no válido</string>
+    <string name="membership_gold">Oro</string>
+    <string name="membership_silver">Plata</string>
+    <string name="membership_biasa">Normal</string>
+    <string name="nama_barang_SGS">Samsung Galaxy S</string>
+    <string name="nama_barang_IPX">Iphone X</string>
+    <string name="nama_barang_MP3">Macbook Pro M3</string>
+    <string name="nama_barang">Nombre del Producto</string>
+    <string name="harga">Precio</string>
+    <string name="total_harga">Precio Total</string>
+    <string name="diskon_harga">Descuento de Precio</string>
+    <string name="diskon_member">Descuento de Miembro</string>
+    <string name="jumlah_bayar">Cantidad a Pagar</string>
+    <string name="share_via">Compartir vía</string>
+</resources>

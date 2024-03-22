@@ -8,8 +8,10 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.adityapratamaquiz1.R;
+import com.example.adityapratamaquiz1.detail;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
         long harga = getHarga(kodeBarang);
         if (harga == -1) {
-            Toast.makeText(MainActivity.this, "Kode barang tidak valid", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, getString(R.string.kode_barang_tidak_valid), Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -54,15 +56,15 @@ public class MainActivity extends AppCompatActivity {
         long jumlahBayar = totalHarga - diskonHarga - diskonMember;
 
         Intent intent = new Intent(MainActivity.this, detail.class);
-        intent.putExtra("Nama Pelanggan", namaPelanggan);
-        intent.putExtra("Kode Barang", kodeBarang);
-        intent.putExtra("Nama Barang", getNamaBarang(kodeBarang));
-        intent.putExtra("Harga", harga);
-        intent.putExtra("Jumlah Barang", jumlahBarang);
-        intent.putExtra("Total Harga", totalHarga);
-        intent.putExtra("Diskon Harga", diskonHarga);
-        intent.putExtra("Diskon Member", diskonMember);
-        intent.putExtra("Jumlah Bayar", jumlahBayar);
+        intent.putExtra(getString(R.string.nama_pelanggan), namaPelanggan);
+        intent.putExtra(getString(R.string.kode_barang), kodeBarang);
+        intent.putExtra(getString(R.string.nama_barang), getNamaBarang(kodeBarang));
+        intent.putExtra(getString(R.string.harga), harga);
+        intent.putExtra(getString(R.string.jumlah_barang), jumlahBarang);
+        intent.putExtra(getString(R.string.total_harga), totalHarga);
+        intent.putExtra(getString(R.string.diskon_harga), diskonHarga);
+        intent.putExtra(getString(R.string.diskon_member), diskonMember);
+        intent.putExtra(getString(R.string.jumlah_bayar), jumlahBayar);
         startActivity(intent);
     }
 
